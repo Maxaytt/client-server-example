@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
   selector: 'app-root',
   standalone: true,
   imports: [FormsModule],
-  template: `<label>Введите имя:</label>
+  template: `<label>Имя маля:</label>
             <input [(ngModel)]="name" placeholder="name">
             <h1>Добро пожаловать {{name}}!</h1>`
 })
